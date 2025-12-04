@@ -39,21 +39,6 @@ Build a personal portfolio website that showcases:
 - Smooth scroll behavior between sections
 - Responsive design for mobile/tablet/desktop
 
-## 📁 File Organization
-- /src/components/ – Reusable UI components
-- /src/pages/ – Page components (Index, NotFound)
-- /src/components/ui/ – shadcn UI components
-- /src/index.css – Global styles and CSS variables
-- /info/ – Reference materials and notes
-
-## 🔗 Links to Update
-- GitHub: https://github.com/Nathanchukss
-- LinkedIn: https://www.linkedin.com/in/nathan-nwaokocha/
-- Email: nathannwaokocha05@gmail.com
-
 ## 🚀 Deployment
-Deployed via Lovable to: https://p-web.lovable.app
+Deployed via Lovable to: https://nathannwaokocha.lovable.app
 
----
-
-Done! Portfolio is live and looking clean. 🎉

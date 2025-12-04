@@ -4,10 +4,11 @@ const AboutSection = () => {
       <h2 className="section-heading">About</h2>
       <div className="space-y-4 text-muted-foreground">
         <p>
-          I'm a Computer Science student at{" "}
-          <span className="text-highlight">Georgia State University</span> with a 3.87 GPA,
-          set to graduate in December 2025. I'm passionate about building robust, scalable
-          systems and exploring the intersection of cloud infrastructure, AI, and security.
+          I'm an <span className="text-highlight">Honors Student</span> at{" "}
+          <span className="text-highlight">Georgia State University</span> pursuing a B.S. in
+          Computer Science with a 3.87 GPA, graduating December 2025. I've been recognized on
+          the <span className="text-highlight">President's List 6 times</span> and{" "}
+          <span className="text-highlight">Dean's List 3 times</span> for academic excellence.
         </p>
         <p>
           My interests span across{" "}
@@ -21,8 +22,8 @@ const AboutSection = () => {
         <p>
           I have hands-on experience with a diverse tech stack including Python, JavaScript,
           React, Node.js, AWS, Docker, and various databases. I've worked on everything from
-          building custom regex engines to deploying cloud-hosted web servers and developing
-          full-stack applications.
+          building custom regex engines and NLP models to deploying cloud-hosted web servers
+          and developing full-stack applications.
         </p>
         <p>
           As an{" "}

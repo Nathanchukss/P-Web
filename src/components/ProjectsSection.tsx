@@ -13,37 +13,67 @@ const projects: Project[] = [
     title: "Regular Expression Engine",
     description:
       "Engineered a custom regular expression engine in Python from scratch, encompassing over 800 lines of code, to parse complex data structures and match intricate search patterns with 99% accuracy.",
-    technologies: ["Python", "Algorithms", "Data Structures"],
+    technologies: ["Python", "Problem Solving", "Critical Thinking", "Debugging"],
+  },
+  {
+    title: "FNDEC - Fake News Detection",
+    description:
+      "Built an NLP-based classification model to identify fake news which preprocessed 10,000+ text samples through stemming, tokenization & TF-IDF vectorization.",
+    technologies: ["Data Analysis", "Data Science", "NLP", "Machine Learning"],
+  },
+  {
+    title: "MovieREC",
+    description:
+      "Developed a recommendation engine using content-based and collaborative filtering on MovieLens dataset, and implemented cosine similarity and TF-IDF vectorization to generate personalized movie suggestions.",
+    technologies: ["Data Analysis", "Databases", "Data Science", "Python"],
   },
   {
     title: "FitLaand",
     description:
-      "Developed core features of a fitness tracking web application with a full-stack architecture. Built the frontend with React.js, backend with Express.js on Node.js, and integrated MongoDB with Mongoose for data persistence.",
-    technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Mongoose"],
+      "Developed core features of a fitness tracking application designed to help users monitor workouts, set goals, and track progress over time. Implemented features like personalized workout plans, progress charts, and user-friendly dashboards.",
+    technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Data Management"],
   },
   {
     title: "P15 Puzzle",
     description:
-      "Developed a web-based Fifteen Puzzle game with dynamic tile movement, live time/move tracking, secure user authentication, customizable game preferences, and an admin dashboard.",
-    technologies: ["JavaScript", "HTML", "CSS", "Authentication"],
+      "Developed a web-based Fifteen Puzzle game featuring dynamic tile movement, live tracking of time and moves, and visual feedback upon completion. Implemented secure user authentication, personalized game preferences, and an admin dashboard.",
+    technologies: ["PHP", "JavaScript", "CSS", "Full-Stack Development", "UX Design"],
+  },
+  {
+    title: "CliSer Com",
+    description:
+      "Developed a socket-based client-server application to enable real-time data exchange over TCP/IP, demonstrating understanding of network protocols and concurrent connections.",
+    technologies: ["Python", "Network Security", "TCP/IP", "Socket Programming"],
+  },
+  {
+    title: "WWM - Who Wants to Be a Millionaire",
+    description:
+      "Developed an interactive web-based quiz game inspired by Who Wants to Be a Millionaire. Designed a responsive interface with HTML and CSS, and implemented dynamic question loading, score tracking, and progression logic using PHP.",
+    technologies: ["PHP", "JavaScript", "CSS", "MariaDB", "Web Development"],
   },
   {
     title: "Streamline",
     description:
-      "Conceptualized and built a sales platform for musical collections as a group project. Delivered a presentation to clients, receiving the highest rating for clarity and technical detail.",
-    technologies: ["Project Management", "Full-Stack Development"],
+      "Conceptualized and built a sales platform for musical collections utilizing HTML, CSS, and JavaScript; delivered a presentation to clients, receiving the highest rating for clarity and technical detail.",
+    technologies: ["JavaScript", "CSS", "HTML", "Web Design"],
   },
   {
     title: "NetTraff - Network Traffic Analysis",
     description:
       "Captured and analyzed packet data to identify network patterns, troubleshoot connectivity issues, and evaluate protocol performance using Wireshark.",
-    technologies: ["Wireshark", "TCP/IP", "Network Analysis", "Security"],
+    technologies: ["Wireshark", "VPN", "Network Security", "Data Analysis"],
   },
   {
     title: "Web Server on AWS",
     description:
       "Deployed and configured a web server on AWS, implemented user access controls, and ensured secure remote connections for cloud hosting.",
-    technologies: ["AWS", "Linux", "Cloud Infrastructure", "Security"],
+    technologies: ["AWS", "Cloud Computing", "Security", "Web Development"],
+  },
+  {
+    title: "Personal Website",
+    description:
+      "A fully responsive, modern personal website designed to showcase my portfolio, skills, and experiences. Features intuitive navigation, clean aesthetic, and interactive elements to highlight my work and personal projects.",
+    technologies: ["JavaScript", "CSS", "HTML", "Web Design", "React"],
   },
 ];
 

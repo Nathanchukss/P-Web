@@ -4,8 +4,15 @@ const AboutSection = () => {
       <h2 className="section-heading">About</h2>
       <div className="space-y-4 text-muted-foreground">
         <p>
-          I'm an <span className="text-highlight">Honors Student</span> at{" "}
-          <span className="text-highlight">Georgia State University</span> pursuing a B.S. in
+        I'm an <span className="text-highlight">Honors Student</span> at{" "}
+          <a 
+            href="https://www.gsu.edu" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-highlight hover:underline"
+          >
+            Georgia State University
+          </a> pursuing a B.S. in
           Computer Science with a 3.87 GPA, graduating December 2025. I've been recognized on
           the <span className="text-highlight">President's List 6 times</span> and{" "}
           <span className="text-highlight">Dean's List 3 times</span> for academic excellence.

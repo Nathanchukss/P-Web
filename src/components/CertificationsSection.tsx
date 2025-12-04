@@ -17,7 +17,7 @@ const certifications: Certification[] = [
   {
     name: "CompTIA Security+",
     issuer: "CompTIA",
-    date: "Expected 2025",
+    date: "Expected 2026",
     status: "in-progress",
   },
 ];

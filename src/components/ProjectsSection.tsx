@@ -73,7 +73,7 @@ const projects: Project[] = [
     title: "Personal Website",
     description:
       "A fully responsive, modern personal website designed to showcase my portfolio, skills, and experiences. Features intuitive navigation, clean aesthetic, and interactive elements to highlight my work and personal projects.",
-    technologies: ["JavaScript", "CSS", "HTML", "Web Design", "React"],
+    technologies: ["JavaScript", "React", "Tailwind CSS", "Figma", "Web Design"],
   },
 ];
 

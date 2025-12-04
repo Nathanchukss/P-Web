@@ -1,10 +1,11 @@
-import { Award } from "lucide-react";
+import { Award, ArrowUpRight } from "lucide-react";
 
 interface Certification {
   name: string;
   issuer: string;
   date: string;
   status: "obtained" | "in-progress";
+  credlyUrl?: string;
 }
 
 const certifications: Certification[] = [
@@ -13,6 +14,7 @@ const certifications: Certification[] = [
     issuer: "Amazon Web Services",
     date: "Oct 2025",
     status: "obtained",
+    credlyUrl: "https://www.credly.com/badges/7918fc8e-b1d4-4989-b453-56d966181fd0/linked_in?t=t403ld",
   },
   {
     name: "CompTIA Security+",
@@ -37,7 +39,21 @@ const CertificationsSection = () => {
                 <Award className="h-5 w-5" />
               </div>
               <div className="flex-1">
-                <h3 className="font-medium text-foreground">{cert.name}</h3>
+                <h3 className="font-medium text-foreground">
+                  {cert.credlyUrl ? (
+                    <a
+                      href={cert.credlyUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group/link external-link"
+                    >
+                      <span>{cert.name}</span>
+                      <ArrowUpRight className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5" />
+                    </a>
+                  ) : (
+                    cert.name
+                  )}
+                </h3>
                 <p className="mt-1 text-sm text-muted-foreground">{cert.issuer}</p>
                 <div className="mt-2 flex items-center gap-2">
                   <span className="text-xs text-muted-foreground">{cert.date}</span>

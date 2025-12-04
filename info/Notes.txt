@@ -1,0 +1,77 @@
+A reference to a personal website I want to do is Brittany Chiang’s site which is sleek, modern, and showcases both personality and professionalism. Since you want yours modeled exactly like hers, here’s what we’ll do:
+
+🔍 Site Breakdown (Brittany Chiang Style)
+
+Let’s match her site’s structure:
+	1.	Landing Section – Your name, title, short tagline.
+	2.	About Me – Bio + photo + what you do.
+	3.	Experience – Work, internships, or school roles.
+	4.	Projects – Showcase your best work with links.
+	5.	Contact – Call to action, maybe email + social links.
+	6.	Sticky Navigation + Dark Theme + Scroll Animations
+
+🔧 Tech Stack She Uses (We’ll Simplify It)
+
+Her site uses:
+	•	React (with components)
+	•	Tailwind CSS
+	•	Framer Motion (for animations)
+	•	Markdown for content
+	•	Deploys on Vercel
+
+But since you’re coding from scratch, we’ll start simple:
+
+	✅ HTML + Tailwind CSS + JavaScript
+Then later, we’ll move into React once you’re comfy.
+
+🛠️ Let’s Start with Step 1: Project Setup
+
+Do this in your terminal:
+
+mkdir my-portfolio
+cd my-portfolio
+npm init -y
+npm install -D tailwindcss
+npx tailwindcss init
+
+Then in your tailwind.config.js, enable dark mode:
+
+module.exports = {
+  darkMode: 'class',
+  content: ['./*.html'],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+Create a basic index.html and link Tailwind:
+
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name</title>
+  <link href="dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white">
+  <section class="min-h-screen flex items-center justify-center">
+    <div class="text-center">
+      <h1 class="text-5xl font-bold mb-4">Hi, I'm [Your Name]</h1>
+      <p class="text-xl text-gray-400">Student • Developer • Dreamer</p>
+    </div>
+  </section>
+</body>
+</html>
+
+Run Tailwind with:
+
+npx tailwindcss -i ./input.css -o ./dist/output.css --watch
+
+🔄 Next Steps:
+	•	Set up this entire project scaffold?
+	•	Build each section step-by-step (like Hero, About, etc)?
+	•	Add interactivity and deploy it when ready?
+
+Just say “let’s start building section 1,” and I’ll walk you through the hero/landing page like Brittany’s.

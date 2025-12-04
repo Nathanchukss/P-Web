@@ -20,13 +20,13 @@ const Index = () => {
         <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
           <div>
             <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
-              Your Name
+              Nathan Nwaokocha
             </h1>
             <h2 className="mt-3 text-lg font-medium tracking-tight text-foreground sm:text-xl">
-              Front End Engineer
+              Computer Science Student
             </h2>
             <p className="mt-4 max-w-xs leading-normal text-muted-foreground">
-              I build accessible, pixel-perfect digital experiences for the web.
+              Aspiring DevOps Engineer & Cloud Solutions Architect with a passion for AI/ML and Security.
             </p>
             
             <div className="mt-16">

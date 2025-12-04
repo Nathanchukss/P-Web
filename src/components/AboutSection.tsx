@@ -4,28 +4,32 @@ const AboutSection = () => {
       <h2 className="section-heading">About</h2>
       <div className="space-y-4 text-muted-foreground">
         <p>
-          I'm a developer passionate about crafting accessible, pixel-perfect user
-          interfaces that blend thoughtful design with robust engineering. My favorite
-          work lies at the intersection of design and development, creating experiences
-          that not only look great but are meticulously built for performance and usability.
+          I'm a Computer Science student at{" "}
+          <span className="text-highlight">Georgia State University</span> with a 3.87 GPA,
+          set to graduate in December 2025. I'm passionate about building robust, scalable
+          systems and exploring the intersection of cloud infrastructure, AI, and security.
         </p>
         <p>
-          Currently, I'm focused on building innovative digital products and learning
-          new technologies. I contribute to projects that prioritize{" "}
-          <span className="text-highlight">accessibility</span> and{" "}
-          <span className="text-highlight">user experience</span>, ensuring that what
-          I build meets web standards and best practices.
+          My interests span across{" "}
+          <span className="text-highlight">DevOps Engineering</span>,{" "}
+          <span className="text-highlight">Cloud Solutions Architecture</span>,{" "}
+          <span className="text-highlight">AI/ML</span>, and{" "}
+          <span className="text-highlight">Security Operations</span>. I enjoy working on
+          projects that challenge me to think critically about system design, performance
+          optimization, and user experience.
         </p>
         <p>
-          In the past, I've had the opportunity to develop software across a variety of
-          settings — from <span className="text-highlight">personal projects</span> and{" "}
-          <span className="text-highlight">academic work</span> to{" "}
-          <span className="text-highlight">collaborative team environments</span>.
-          I'm always eager to tackle new challenges and expand my skill set.
+          I have hands-on experience with a diverse tech stack including Python, JavaScript,
+          React, Node.js, AWS, Docker, and various databases. I've worked on everything from
+          building custom regex engines to deploying cloud-hosted web servers and developing
+          full-stack applications.
         </p>
         <p>
-          In my spare time, I'm usually exploring new technologies, reading about software
-          architecture, or working on side projects that push my boundaries as a developer.
+          As an{" "}
+          <span className="text-highlight">AWS Certified Cloud Practitioner</span>, I bring
+          cloud expertise to my projects. When I'm not coding, I'm exploring agentic AI
+          workflows, refining prompt engineering techniques, or diving into network security
+          concepts.
         </p>
       </div>
     </section>

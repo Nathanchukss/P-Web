@@ -34,7 +34,14 @@ const AboutSection = () => {
         </p>
         <p>
           As an{" "}
-          <span className="text-highlight">AWS Certified Cloud Practitioner</span>, I bring
+          <a 
+            href="https://aws.amazon.com/certification/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-highlight hover:underline"
+          >
+            AWS Certified Cloud Practitioner
+          </a>, I bring
           cloud expertise to my projects. When I'm not coding, I'm exploring agentic AI
           workflows, refining prompt engineering techniques, or diving into network security
           concepts.

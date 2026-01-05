@@ -17,6 +17,14 @@ const projects: Project[] = [
     liveUrl: "https://medrecord-ehr.lovable.app",
   },
   {
+    title: "ISVP - Intelligent Stock Value Prediction",
+    description:
+      "Built a hybrid AI system combining Deep Learning (Transformers) and Reinforcement Learning to predict stock prices with 82.3% directional accuracy. Outperforms traditional models like ARIMA and LSTM across RMSE, MAPE, and Directional Accuracy metrics.",
+    technologies: ["Python", "PyTorch", "React", "TypeScript", "Machine Learning", "AI"],
+    liveUrl: "https://isvp.lovable.app",
+    githubUrl: "https://github.com/Nathanchukss/isvp",
+  },
+  {
     title: "NetTraff - Network Traffic Analysis",
     description:
       "Captured and analyzed packet data to identify network patterns, troubleshoot connectivity issues, and evaluate protocol performance using Wireshark.",

@@ -13,7 +13,7 @@ const AboutSection = () => {
           >
             Georgia State University
           </a> pursuing a B.S. in
-          Computer Science with a 3.87 GPA, graduating December 2025. I've been recognized on
+          Computer Science with a 3.86 GPA, graduating December 2025. I've been recognized on
           the <span className="text-highlight">President's List 6 times</span> and{" "}
           <span className="text-highlight">Dean's List 3 times</span> for academic excellence.
         </p>

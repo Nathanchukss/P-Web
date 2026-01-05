@@ -16,10 +16,10 @@ const projects: Project[] = [
     technologies: ["PostgreSQL", "Supabase", "RLS", "RBAC", "HIPAA", "Security"],
   },
   {
-    title: "Regular Expression Engine",
+    title: "NetTraff - Network Traffic Analysis",
     description:
-      "Engineered a custom regular expression engine in Python from scratch, encompassing over 800 lines of code, to parse complex data structures and match intricate search patterns with 99% accuracy.",
-    technologies: ["Python", "Problem Solving", "Critical Thinking", "Debugging"],
+      "Captured and analyzed packet data to identify network patterns, troubleshoot connectivity issues, and evaluate protocol performance using Wireshark.",
+    technologies: ["Wireshark", "VPN", "Network Security", "Data Analysis"],
   },
   {
     title: "FNDEC - Fake News Detection",
@@ -34,6 +34,18 @@ const projects: Project[] = [
     technologies: ["Data Analysis", "Databases", "Data Science", "Python"],
   },
   {
+    title: "CliSer Com",
+    description:
+      "Developed a socket-based client-server application to enable real-time data exchange over TCP/IP, demonstrating understanding of network protocols and concurrent connections.",
+    technologies: ["Python", "Network Security", "TCP/IP", "Socket Programming"],
+  },
+  {
+    title: "Regular Expression Engine",
+    description:
+      "Engineered a custom regular expression engine in Python from scratch, encompassing over 800 lines of code, to parse complex data structures and match intricate search patterns with 99% accuracy.",
+    technologies: ["Python", "Problem Solving", "Critical Thinking", "Debugging"],
+  },
+  {
     title: "FitLaand",
     description:
       "Developed core features of a fitness tracking application designed to help users monitor workouts, set goals, and track progress over time. Implemented features like personalized workout plans, progress charts, and user-friendly dashboards.",
@@ -46,12 +58,6 @@ const projects: Project[] = [
     technologies: ["PHP", "JavaScript", "CSS", "Full-Stack Development", "UX Design"],
   },
   {
-    title: "CliSer Com",
-    description:
-      "Developed a socket-based client-server application to enable real-time data exchange over TCP/IP, demonstrating understanding of network protocols and concurrent connections.",
-    technologies: ["Python", "Network Security", "TCP/IP", "Socket Programming"],
-  },
-  {
     title: "WWM - Who Wants to Be a Millionaire",
     description:
       "Developed an interactive web-based quiz game inspired by Who Wants to Be a Millionaire. Designed a responsive interface with HTML and CSS, and implemented dynamic question loading, score tracking, and progression logic using PHP.",
@@ -62,12 +68,6 @@ const projects: Project[] = [
     description:
       "Conceptualized and built a sales platform for musical collections utilizing HTML, CSS, and JavaScript; delivered a presentation to clients, receiving the highest rating for clarity and technical detail.",
     technologies: ["JavaScript", "CSS", "HTML", "Web Design"],
-  },
-  {
-    title: "NetTraff - Network Traffic Analysis",
-    description:
-      "Captured and analyzed packet data to identify network patterns, troubleshoot connectivity issues, and evaluate protocol performance using Wireshark.",
-    technologies: ["Wireshark", "VPN", "Network Security", "Data Analysis"],
   },
   {
     title: "Web Server on AWS",

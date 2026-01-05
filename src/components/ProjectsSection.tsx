@@ -54,12 +54,14 @@ const projects: Project[] = [
     description:
       "Engineered a custom regular expression engine in Python from scratch, encompassing over 800 lines of code, to parse complex data structures and match intricate search patterns with 99% accuracy.",
     technologies: ["Python", "Problem Solving", "Critical Thinking", "Debugging"],
+    githubUrl: "https://github.com/Nathanchukss/Regular_Expression_Engine",
   },
   {
     title: "FitLaand",
     description:
       "Developed core features of a fitness tracking application designed to help users monitor workouts, set goals, and track progress over time. Implemented features like personalized workout plans, progress charts, and user-friendly dashboards.",
     technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Data Management"],
+    githubUrl: "https://github.com/digoabari1/fitLaand",
   },
   {
     title: "P15 Puzzle",
@@ -90,6 +92,7 @@ const projects: Project[] = [
     description:
       "A fully responsive, modern personal website designed to showcase my portfolio, skills, and experiences. Features intuitive navigation, clean aesthetic, and interactive elements to highlight my work and personal projects.",
     technologies: ["JavaScript", "React", "Tailwind CSS", "Figma", "Web Design"],
+    githubUrl: "https://github.com/Nathanchukss/P-Web",
   },
 ];
 
@@ -102,9 +105,9 @@ const ProjectsSection = () => {
           <div key={index} className="group project-card mb-12 lg:hover:!opacity-100 lg:group-hover/list:opacity-50 hover:before:bg-muted/50">
             <div className="z-10 sm:col-span-6">
               <h3 className="font-medium leading-snug">
-                {project.liveUrl || project.githubUrl ? (
+                {project.liveUrl ? (
                   <a
-                    href={project.liveUrl || project.githubUrl}
+                    href={project.liveUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="group/link external-link"

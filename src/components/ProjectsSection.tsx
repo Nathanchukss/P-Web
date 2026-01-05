@@ -10,6 +10,12 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "MedRecord",
+    description:
+      "Designed and implemented a secure healthcare records system protecting sensitive PHI using role-based access control (RBAC) aligned with HIPAA security principles. Implemented Row-Level Security (RLS) policies in PostgreSQL and comprehensive audit logging for security monitoring and compliance.",
+    technologies: ["PostgreSQL", "Supabase", "RLS", "RBAC", "HIPAA", "Security"],
+  },
+  {
     title: "Regular Expression Engine",
     description:
       "Engineered a custom regular expression engine in Python from scratch, encompassing over 800 lines of code, to parse complex data structures and match intricate search patterns with 99% accuracy.",

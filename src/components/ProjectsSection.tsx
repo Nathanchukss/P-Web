@@ -14,6 +14,7 @@ const projects: Project[] = [
     description:
       "Designed and implemented a secure healthcare records system protecting sensitive PHI using role-based access control (RBAC) aligned with HIPAA security principles. Implemented Row-Level Security (RLS) policies in PostgreSQL and comprehensive audit logging for security monitoring and compliance.",
     technologies: ["PostgreSQL", "Supabase", "RLS", "RBAC", "HIPAA", "Security"],
+    liveUrl: "https://medrecord-ehr.lovable.app",
   },
   {
     title: "NetTraff - Network Traffic Analysis",

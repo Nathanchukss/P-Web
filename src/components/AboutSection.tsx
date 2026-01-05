@@ -19,9 +19,10 @@ const AboutSection = () => {
         </p>
         <p>
           My interests span across{" "}
-          <span className="text-highlight">DevOps Engineering</span>,{" "}
+          <span className="text-highlight">Security Operations</span>,{" "}
           <span className="text-highlight">Cloud Solutions Architecture</span>,{" "}
-          <span className="text-highlight">AI/ML</span>, and{" "}
+          <span className="text-highlight">DevOps Engineering</span>, and{" "}
+          <span className="text-highlight">AI/ML</span>. I enjoy working on
           <span className="text-highlight">Security Operations</span>. I enjoy working on
           projects that challenge me to think critically about system design, performance
           optimization, and user experience.

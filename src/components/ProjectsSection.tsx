@@ -15,6 +15,7 @@ const projects: Project[] = [
       "Designed and implemented a secure healthcare records system protecting sensitive PHI using role-based access control (RBAC) aligned with HIPAA security principles. Implemented Row-Level Security (RLS) policies in PostgreSQL and comprehensive audit logging for security monitoring and compliance.",
     technologies: ["PostgreSQL", "Supabase", "RLS", "RBAC", "HIPAA", "Security"],
     liveUrl: "https://medrecord-ehr.lovable.app",
+    githubUrl: "https://github.com/Nathanchukss/electronic-health-records-ehr",
   },
   {
     title: "ISVP - Intelligent Stock Value Prediction",
@@ -53,12 +54,14 @@ const projects: Project[] = [
     description:
       "Engineered a custom regular expression engine in Python from scratch, encompassing over 800 lines of code, to parse complex data structures and match intricate search patterns with 99% accuracy.",
     technologies: ["Python", "Problem Solving", "Critical Thinking", "Debugging"],
+    githubUrl: "https://github.com/Nathanchukss/Regular_Expression_Engine",
   },
   {
     title: "FitLaand",
     description:
       "Developed core features of a fitness tracking application designed to help users monitor workouts, set goals, and track progress over time. Implemented features like personalized workout plans, progress charts, and user-friendly dashboards.",
     technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Data Management"],
+    githubUrl: "https://github.com/digoabari1/fitLaand",
   },
   {
     title: "P15 Puzzle",
@@ -89,6 +92,7 @@ const projects: Project[] = [
     description:
       "A fully responsive, modern personal website designed to showcase my portfolio, skills, and experiences. Features intuitive navigation, clean aesthetic, and interactive elements to highlight my work and personal projects.",
     technologies: ["JavaScript", "React", "Tailwind CSS", "Figma", "Web Design"],
+    githubUrl: "https://github.com/Nathanchukss/P-Web",
   },
 ];
 

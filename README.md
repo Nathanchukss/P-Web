@@ -4,7 +4,7 @@ A modern, responsive portfolio website showcasing my professional experience, pr
 
 ## 🌐 Live Website
 
-Visit the live portfolio: [View Portfolio](https://lovable.dev/projects/15d38657-ae93-405e-b51e-64c87b071309)
+Visit the live portfolio: [View Portfolio](https://nathannwaokocha.lovable.app)
 
 ## 📖 About
 

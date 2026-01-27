@@ -28,9 +28,9 @@ const AboutSection = () => {
           architecture, and defensive strategies.
         </p>
         <p>
-          I have hands-on experience with security tools and technologies including Python,
-          Wireshark, AWS Security Services, Docker, and SIEM platforms. I've worked on everything from
-          network traffic analysis and intrusion detection to vulnerability assessments,
+          I have hands-on experience with security tools and technologies including Tenable Nessus,
+          Splunk, Wireshark, Burp Suite, Metasploit, Jenkins, Python, AWS Security Services, and Docker.
+          I've worked on network traffic analysis, vulnerability assessments, penetration testing,
           security automation, and incident response workflows.
         </p>
         <p>

@@ -6,19 +6,31 @@ interface SkillCategory {
 const skillCategories: SkillCategory[] = [
   {
     name: "Security",
-    skills: ["OWASP Top 10", "Network Security", "Penetration Testing", "IAM", "Encryption (AES/RSA)"],
+    skills: ["OWASP Top 10", "Network Security", "Penetration Testing", "IAM", "Encryption (AES/RSA)", "TCP/IP", "DNS", "VPN", "Firewalls", "IDS/IPS"],
   },
   {
-    name: "Cloud",
-    skills: ["AWS", "AWS Security Hub", "Amazon GuardDuty", "Azure", "Microsoft Defender for Cloud", "GCP", "Security Command Center", "Chronicle", "Docker", "Kubernetes", "Terraform"],
+    name: "Cloud & DevOps",
+    skills: ["AWS", "AWS Security Hub", "Amazon GuardDuty", "Azure", "Microsoft Defender for Cloud", "GCP", "Security Command Center", "Chronicle", "Docker", "Kubernetes", "Terraform", "GitHub", "YAML"],
   },
   {
     name: "Languages",
-    skills: ["Python (Automation/Scripting)", "Java", "C++", "Bash", "SQL"],
+    skills: ["Python (Automation/Scripting)", "Java", "C++", "Bash", "SQL", "JavaScript", "F#", "Go", "R", "PHP"],
   },
   {
     name: "Tools",
-    skills: ["Tenable Nessus", "Splunk", "Wireshark", "Burp Suite", "Metasploit", "Git", "Jenkins"],
+    skills: ["Tenable Nessus", "Splunk", "Wireshark", "Burp Suite", "Metasploit", "Git", "Jenkins", "Microsoft Power Automate"],
+  },
+  {
+    name: "Web Development",
+    skills: ["React", "Node.js", "Express.js", "HTML", "CSS", "Flask", "REST APIs", "WebSocket APIs"],
+  },
+  {
+    name: "Databases",
+    skills: ["MongoDB", "PostgreSQL", "MariaDB", "SQLite3", "Mongoose"],
+  },
+  {
+    name: "Data Science & AI",
+    skills: ["NumPy", "TensorFlow", "Airflow", "Power BI", "NLP", "TF-IDF", "Agentic AI Workflows", "AI/LLM Behavior"],
   },
   {
     name: "Operating Systems",

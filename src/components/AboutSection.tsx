@@ -4,7 +4,7 @@ const AboutSection = () => {
       <h2 className="section-heading">About</h2>
       <div className="space-y-4 text-muted-foreground">
         <p>
-        I'm an <span className="text-highlight">Honors Student</span> at{" "}
+        I'm a <span className="text-highlight">Graduate Honors Student</span> at{" "}
           <a 
             href="https://www.gsu.edu" 
             target="_blank" 
@@ -13,25 +13,25 @@ const AboutSection = () => {
           >
             Georgia State University
           </a> pursuing a B.S. in
-          Computer Science with a 3.86 GPA, graduating December 2025. I've been recognized on
+          Computer Science with a 3.86 GPA. I've been recognized on
           the <span className="text-highlight">President's List 6 times</span> and{" "}
           <span className="text-highlight">Dean's List 4 times</span> for academic excellence.
         </p>
         <p>
           My interests span across{" "}
-          <span className="text-highlight">Security Operations</span>,{" "}
+          <span className="text-highlight">Security Engineering</span>,{" "}
+          <span className="text-highlight">Security Architecture</span>,{" "}
           <span className="text-highlight">Cloud Solutions Architecture</span>,{" "}
-          <span className="text-highlight">DevOps Engineering</span>, and{" "}
-          <span className="text-highlight">AI/ML</span>. I enjoy working on
-          <span className="text-highlight">Security Operations</span>. I enjoy working on
-          projects that challenge me to think critically about system design, performance
-          optimization, and user experience.
+          <span className="text-highlight">SOC Analysis</span>, and{" "}
+          <span className="text-highlight">Incident Response</span>. I enjoy working on
+          projects that challenge me to think critically about threat detection, security
+          architecture, and defensive strategies.
         </p>
         <p>
-          I have hands-on experience with a diverse tech stack including Python, JavaScript,
-          React, Node.js, AWS, Docker, and various databases. I've worked on everything from
-          building custom regex engines and NLP models to deploying cloud-hosted web servers
-          and developing full-stack applications.
+          I have hands-on experience with security tools and technologies including Python,
+          Wireshark, AWS Security Services, Docker, and SIEM platforms. I've worked on everything from
+          network traffic analysis and intrusion detection to vulnerability assessments,
+          security automation, and incident response workflows.
         </p>
         <p>
           As an{" "}

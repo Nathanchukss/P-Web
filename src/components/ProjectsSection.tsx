@@ -10,6 +10,12 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "Vulnerable Scanner",
+    description:
+      "Built a web application vulnerability scanner that detects common security flaws including XSS, SQL injection, and other OWASP Top 10 vulnerabilities. Automates security assessments to identify weaknesses in web applications before malicious actors can exploit them.",
+    technologies: ["Python", "Security", "OWASP", "Web Security", "Vulnerability Assessment"],
+  },
+  {
     title: "MedRecord - Healthcare Patient Management System",
     description:
       "Designed and implemented a secure healthcare records system protecting sensitive PHI using role-based access control (RBAC) aligned with HIPAA security principles. Implemented Row-Level Security (RLS) policies in PostgreSQL and comprehensive audit logging for security monitoring and compliance.",

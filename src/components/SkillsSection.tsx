@@ -5,32 +5,24 @@ interface SkillCategory {
 
 const skillCategories: SkillCategory[] = [
   {
-    name: "Programming Languages",
-    skills: ["Python", "JavaScript", "C++/C", "Java", "SQL", "F#", "Go", "R", "Assembly", "PHP"],
+    name: "Security",
+    skills: ["OWASP Top 10", "Network Security", "Penetration Testing", "IAM", "Encryption (AES/RSA)"],
   },
   {
-    name: "Web Development",
-    skills: ["React", "Node.js", "Express.js", "HTML", "CSS", "Flask", "REST APIs", "WebSocket APIs"],
+    name: "Cloud",
+    skills: ["AWS", "AWS Security Hub", "Amazon GuardDuty", "Azure", "Microsoft Defender for Cloud", "GCP", "Security Command Center", "Chronicle", "Docker", "Kubernetes", "Terraform"],
   },
   {
-    name: "Databases",
-    skills: ["MongoDB", "PostgreSQL", "MariaDB", "SQLite3", "Mongoose"],
+    name: "Languages",
+    skills: ["Python (Automation/Scripting)", "Java", "C++", "Bash", "SQL"],
   },
   {
-    name: "Cloud & DevOps",
-    skills: ["AWS", "Docker", "Git", "GitHub", "YAML", "Microsoft Power Automate"],
+    name: "Tools",
+    skills: ["Tenable Nessus", "Splunk", "Wireshark", "Burp Suite", "Metasploit", "Git", "Jenkins"],
   },
   {
-    name: "Data Science & AI",
-    skills: ["NumPy", "TensorFlow", "Airflow", "Power BI", "NLP", "TF-IDF", "Agentic AI Workflows", "AI/LLM Behavior", "Linear & Logistic Regression", "Support Vector Models"],
-  },
-  {
-    name: "Networking & Security",
-    skills: ["Wireshark", "TCP/IP", "DNS", "HTTP", "DHCP", "VPN", "Firewalls", "IDS/IPS"],
-  },
-  {
-    name: "Other Tools",
-    skills: ["JavaFX", "FXML", "Canvas"],
+    name: "Operating Systems",
+    skills: ["Linux (Ubuntu/Kali)", "Windows Server", "macOS"],
   },
 ];
 

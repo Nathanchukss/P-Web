@@ -1,4 +1,5 @@
 import Navigation from "@/components/Navigation";
+import MobileNav from "@/components/MobileNav";
 import SocialLinks from "@/components/SocialLinks";
 import AboutSection from "@/components/AboutSection";
 import ExperienceSection from "@/components/ExperienceSection";
@@ -9,7 +10,8 @@ import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0">
+    <div className="mx-auto min-h-screen max-w-screen-xl px-4 py-12 sm:px-6 md:px-12 md:py-20 lg:px-24 lg:py-0">
+      <MobileNav />
       <a
         href="#content"
         className="absolute left-0 top-0 block -translate-x-full rounded bg-primary px-4 py-3 text-sm font-bold uppercase tracking-wide text-primary-foreground focus-visible:translate-x-0"

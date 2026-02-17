@@ -12,6 +12,30 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
+    period: "Sep 2025 — Dec 2025",
+    title: "Cyber Security Intern / IT Assistant",
+    company: "Georgia State University",
+    location: "Atlanta, GA",
+    description: [
+      "Assisted in a campus-wide audit of 50+ network access points, identifying and remediating 5 critical misconfigurations.",
+      "Monitored network traffic using Wireshark and Splunk to identify anomalous patterns, contributing to the early detection of a localized malware infection.",
+      "Developed a \"Secure Coding\" workshop for 30+ peer students to promote the use of sanitized inputs.",
+    ],
+    technologies: ["Network Security", "Wireshark", "Splunk", "Computer Science"],
+  },
+  {
+    period: "May 2025 — Aug 2025",
+    title: "Cybersecurity Intern",
+    company: "Zircon Business Solutions Limited",
+    location: "Atlanta, GA",
+    description: [
+      "Conducted vulnerability scans using Tenable Nessus and helped with risk prioritization.",
+      "Reviewed past incident tickets to identify recurring security issues.",
+      "Assisted with SOAR-based reporting automation.",
+    ],
+    technologies: ["Tenable Nessus", "Security Policy", "SOAR", "Analytical Skills"],
+  },
+  {
     period: "Mar 2024 — Present",
     title: "Retail Associate II",
     company: "The Coca-Cola Company",
@@ -23,21 +47,23 @@ const experiences: Experience[] = [
     ],
   },
   {
-    period: "May 2023 — Aug 2025",
-    title: "Freelance Prompt Engineer",
+    period: "May 2023 — Sep 2025",
+    title: "AI Prompter",
     company: "Upwork",
     companyUrl: "https://www.upwork.com",
+    location: "Remote",
     description: [
       "Designed and optimized 500+ AI prompts to improve accuracy, efficiency and reliability of outputs.",
       "Increased model performance consistency by 30% through iterative testing and refinement.",
       "Conducted prompt A/B testing with success rates improving task accuracy from 69% to 90%.",
     ],
-    technologies: ["AI/LLM", "Prompt Engineering", "A/B Testing"],
+    technologies: ["AI/LLM", "Prompt Engineering", "A/B Testing", "Problem Solving"],
   },
   {
-    period: "Jul 2022 — Jan 2024",
-    title: "Customer Service Staff & Cashier",
+    period: "Sep 2023 — Jan 2024",
+    title: "Customer Service Staff",
     company: "Publix Super Markets",
+    location: "Atlanta, GA",
     description: [
       "Guided customers through various money transfer services, ensuring a seamless and positive experience.",
       "Reduced fraud incidents by 15% through fraud education and specialized training.",

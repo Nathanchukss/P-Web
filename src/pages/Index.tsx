@@ -30,7 +30,7 @@ const Index = () => {
               Computer Science Student
             </h2>
             <p className="mt-4 max-w-xs leading-normal text-muted-foreground">
-              Aspiring DevOps Engineer & Cloud Solutions Architect with a passion for AI/ML and Security.
+              Aspiring DevOps Engineer & Cloud Solutions Architect with a passion for Software Engineering, AI/ML, and Security.
             </p>
             
             <div className="mt-16">

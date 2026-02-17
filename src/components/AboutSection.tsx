@@ -19,20 +19,21 @@ const AboutSection = () => {
         </p>
         <p>
           My interests span across{" "}
+          <span className="text-highlight">Software Engineering</span>,{" "}
           <span className="text-highlight">Security Engineering</span>,{" "}
-          <span className="text-highlight">Security Architecture</span>,{" "}
           <span className="text-highlight">Cloud Solutions Architecture</span>,{" "}
           <span className="text-highlight">SOC Analysis</span>, and{" "}
-          <span className="text-highlight">Incident Response</span>. Even with a strong foundation in{" "}
-          <span className="text-highlight">Software Engineering</span>, I enjoy working on
-          projects that challenge me to think critically about threat detection, security
+          <span className="text-highlight">Incident Response</span>. With a strong foundation in{" "}
+          software development and full-stack engineering, I enjoy building secure, scalable
+          applications while thinking critically about threat detection, security
           architecture, and defensive strategies.
         </p>
         <p>
-          I have hands-on experience with security tools and technologies including Tenable Nessus,
-          Splunk, Wireshark, Burp Suite, Metasploit, Jenkins, Python, AWS Security Services, and Docker.
-          I've worked on network traffic analysis, vulnerability assessments, penetration testing,
-          security automation, and incident response workflows.
+          I have hands-on experience building full-stack applications with React, Node.js, Python,
+          and PostgreSQL, as well as working with security tools including Tenable Nessus,
+          Splunk, Wireshark, Burp Suite, and Metasploit. I've applied software engineering
+          best practices to projects spanning vulnerability assessments, security automation,
+          CI/CD pipelines, and cloud infrastructure.
         </p>
         <p>
           As a{" "}

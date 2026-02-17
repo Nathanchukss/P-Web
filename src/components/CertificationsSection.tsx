@@ -19,8 +19,9 @@ const certifications: Certification[] = [
   {
     name: "CompTIA Security+",
     issuer: "CompTIA",
-    date: "Expected 2026",
-    status: "in-progress",
+    date: "Feb 2026",
+    status: "obtained",
+    credlyUrl: "https://www.credly.com/badges/b110b134-a1c2-48aa-b498-914f734aba8a/linked_in_profile",
   },
 ];
 

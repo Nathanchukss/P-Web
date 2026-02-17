@@ -34,7 +34,8 @@ const AboutSection = () => {
           security automation, and incident response workflows.
         </p>
         <p>
-          As an{" "}
+          As a{" "}
+          <span className="text-highlight">CompTIA Security+</span> and{" "}
           <a 
             href="https://aws.amazon.com/certification/" 
             target="_blank" 
@@ -43,7 +44,7 @@ const AboutSection = () => {
           >
             AWS Certified Cloud Practitioner
           </a>, I bring
-          cloud expertise to my projects. When I'm not coding, I'm exploring agentic AI
+          security and cloud expertise to my projects. When I'm not coding, I'm exploring agentic AI
           workflows, refining prompt engineering techniques, or diving into network security
           concepts.
         </p>

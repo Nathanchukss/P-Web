@@ -47,6 +47,17 @@ const experiences: Experience[] = [
     ],
   },
   {
+    period: "Sep 2023 — Jan 2024",
+    title: "Customer Service Staff",
+    company: "Publix Super Markets",
+    location: "Atlanta, GA",
+    description: [
+      "Guided customers through various money transfer services, ensuring a seamless and positive experience.",
+      "Reduced fraud incidents by 15% through fraud education and specialized training.",
+      "Contributed to a safer environment and customer trust through vigilant fraud prevention.",
+    ],
+  },
+  {
     period: "May 2023 — Sep 2025",
     title: "AI Prompter",
     company: "Upwork",
@@ -58,17 +69,6 @@ const experiences: Experience[] = [
       "Conducted prompt A/B testing with success rates improving task accuracy from 69% to 90%.",
     ],
     technologies: ["AI/LLM", "Prompt Engineering", "A/B Testing", "Problem Solving"],
-  },
-  {
-    period: "Sep 2023 — Jan 2024",
-    title: "Customer Service Staff",
-    company: "Publix Super Markets",
-    location: "Atlanta, GA",
-    description: [
-      "Guided customers through various money transfer services, ensuring a seamless and positive experience.",
-      "Reduced fraud incidents by 15% through fraud education and specialized training.",
-      "Contributed to a safer environment and customer trust through vigilant fraud prevention.",
-    ],
   },
 ];
 

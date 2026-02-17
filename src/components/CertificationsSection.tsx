@@ -10,18 +10,18 @@ interface Certification {
 
 const certifications: Certification[] = [
   {
-    name: "AWS Certified Cloud Practitioner",
-    issuer: "Amazon Web Services",
-    date: "Oct 2025",
-    status: "obtained",
-    credlyUrl: "https://www.credly.com/badges/7918fc8e-b1d4-4989-b453-56d966181fd0/linked_in?t=t403ld",
-  },
-  {
     name: "CompTIA Security+",
     issuer: "CompTIA",
     date: "Feb 2026",
     status: "obtained",
     credlyUrl: "https://www.credly.com/badges/b110b134-a1c2-48aa-b498-914f734aba8a/linked_in_profile",
+  },
+  {
+    name: "AWS Certified Cloud Practitioner",
+    issuer: "Amazon Web Services",
+    date: "Oct 2025",
+    status: "obtained",
+    credlyUrl: "https://www.credly.com/badges/7918fc8e-b1d4-4989-b453-56d966181fd0/linked_in?t=t403ld",
   },
 ];
 

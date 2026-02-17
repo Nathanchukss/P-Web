@@ -52,6 +52,13 @@ const projects: Project[] = [
     technologies: ["Data Analysis", "Databases", "Data Science", "Python"],
   },
   {
+    title: "Personal Website",
+    description:
+      "A fully responsive, modern personal website designed to showcase my portfolio, skills, and experiences. Features intuitive navigation, clean aesthetic, and interactive elements to highlight my work and personal projects.",
+    technologies: ["JavaScript", "React", "Tailwind CSS", "Figma", "Web Design"],
+    githubUrl: "https://github.com/Nathanchukss/P-Web",
+  },
+  {
     title: "CliSer Com",
     description:
       "Developed a socket-based client-server application to enable real-time data exchange over TCP/IP, demonstrating understanding of network protocols and concurrent connections.",
@@ -94,13 +101,6 @@ const projects: Project[] = [
     description:
       "Deployed and configured a web server on AWS, implemented user access controls, and ensured secure remote connections for cloud hosting.",
     technologies: ["AWS", "Cloud Computing", "Security", "Web Development"],
-  },
-  {
-    title: "Personal Website",
-    description:
-      "A fully responsive, modern personal website designed to showcase my portfolio, skills, and experiences. Features intuitive navigation, clean aesthetic, and interactive elements to highlight my work and personal projects.",
-    technologies: ["JavaScript", "React", "Tailwind CSS", "Figma", "Web Design"],
-    githubUrl: "https://github.com/Nathanchukss/P-Web",
   },
 ];
 

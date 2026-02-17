@@ -12,6 +12,17 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
+    period: "Mar 2024 — Present",
+    title: "Retail Associate II",
+    company: "The Coca-Cola Company",
+    location: "Atlanta, GA",
+    description: [
+      "Delivered excellent guest service, increasing customer satisfaction scores by 15%.",
+      "Promote Coca-Cola products to an average of 200+ customers daily, enhancing brand visibility.",
+      "Collaborated with team members to exceed sales targets by 20% through promotional strategies.",
+    ],
+  },
+  {
     period: "Sep 2025 — Dec 2025",
     title: "Cyber Security Intern / IT Assistant",
     company: "Georgia State University",
@@ -22,6 +33,19 @@ const experiences: Experience[] = [
       "Developed a \"Secure Coding\" workshop for 30+ peer students to promote the use of sanitized inputs.",
     ],
     technologies: ["Network Security", "Wireshark", "Splunk", "Computer Science"],
+  },
+  {
+    period: "May 2023 — Sep 2025",
+    title: "AI Prompter",
+    company: "Upwork",
+    companyUrl: "https://www.upwork.com",
+    location: "Remote",
+    description: [
+      "Designed and optimized 500+ AI prompts to improve accuracy, efficiency and reliability of outputs.",
+      "Increased model performance consistency by 30% through iterative testing and refinement.",
+      "Conducted prompt A/B testing with success rates improving task accuracy from 69% to 90%.",
+    ],
+    technologies: ["AI/LLM", "Prompt Engineering", "A/B Testing", "Problem Solving"],
   },
   {
     period: "May 2025 — Aug 2025",
@@ -36,17 +60,6 @@ const experiences: Experience[] = [
     technologies: ["Tenable Nessus", "Security Policy", "SOAR", "Analytical Skills"],
   },
   {
-    period: "Mar 2024 — Present",
-    title: "Retail Associate II",
-    company: "The Coca-Cola Company",
-    location: "Atlanta, GA",
-    description: [
-      "Delivered excellent guest service, increasing customer satisfaction scores by 15%.",
-      "Promote Coca-Cola products to an average of 200+ customers daily, enhancing brand visibility.",
-      "Collaborated with team members to exceed sales targets by 20% through promotional strategies.",
-    ],
-  },
-  {
     period: "Sep 2023 — Jan 2024",
     title: "Customer Service Staff",
     company: "Publix Super Markets",
@@ -56,19 +69,6 @@ const experiences: Experience[] = [
       "Reduced fraud incidents by 15% through fraud education and specialized training.",
       "Contributed to a safer environment and customer trust through vigilant fraud prevention.",
     ],
-  },
-  {
-    period: "May 2023 — Sep 2025",
-    title: "AI Prompter",
-    company: "Upwork",
-    companyUrl: "https://www.upwork.com",
-    location: "Remote",
-    description: [
-      "Designed and optimized 500+ AI prompts to improve accuracy, efficiency and reliability of outputs.",
-      "Increased model performance consistency by 30% through iterative testing and refinement.",
-      "Conducted prompt A/B testing with success rates improving task accuracy from 69% to 90%.",
-    ],
-    technologies: ["AI/LLM", "Prompt Engineering", "A/B Testing", "Problem Solving"],
   },
 ];
 

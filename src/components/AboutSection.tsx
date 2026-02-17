@@ -23,7 +23,8 @@ const AboutSection = () => {
           <span className="text-highlight">Security Architecture</span>,{" "}
           <span className="text-highlight">Cloud Solutions Architecture</span>,{" "}
           <span className="text-highlight">SOC Analysis</span>, and{" "}
-          <span className="text-highlight">Incident Response</span>. I enjoy working on
+          <span className="text-highlight">Incident Response</span>. Even with a strong foundation in{" "}
+          <span className="text-highlight">Software Engineering</span>, I enjoy working on
           projects that challenge me to think critically about threat detection, security
           architecture, and defensive strategies.
         </p>

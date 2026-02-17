@@ -44,9 +44,10 @@ const AboutSection = () => {
           >
             AWS Certified Cloud Practitioner
           </a>, I bring
-          security and cloud expertise to my projects. When I'm not coding, I'm exploring agentic AI
-          workflows, refining prompt engineering techniques, or diving into network security
-          concepts.
+          security and cloud expertise to my projects. When I'm not coding, I'm advancing my
+          development skills, exploring agentic AI workflows, refining prompt engineering
+          techniques, and understanding how leading technologies can transform traditional
+          business processes.
         </p>
       </div>
     </section>

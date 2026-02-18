@@ -19,13 +19,13 @@ const AboutSection = () => {
         </p>
         <p>
           My interests span across{" "}
-          <span className="text-highlight">Software Engineering</span>,{" "}
           <span className="text-highlight">Security Engineering</span>,{" "}
+          <span className="text-highlight">Security Architecture</span>,{" "}
           <span className="text-highlight">Cloud Solutions Architecture</span>,{" "}
           <span className="text-highlight">SOC Analysis</span>, and{" "}
-          <span className="text-highlight">Incident Response</span>. With a strong foundation in{" "}
-          software development and full-stack engineering, I enjoy building secure, scalable
-          applications while thinking critically about threat detection, security
+          <span className="text-highlight">Incident Response</span>. Even with a strong foundation in{" "}
+          <span className="text-highlight">Software Engineering</span>, I enjoy working on
+          projects that challenge me to think critically about threat detection, security
           architecture, and defensive strategies.
         </p>
         <p>

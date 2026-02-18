@@ -91,6 +91,7 @@ const projects: Project[] = [
     description:
       "Developed an interactive web-based quiz game inspired by Who Wants to Be a Millionaire. Designed a responsive interface with HTML and CSS, and implemented dynamic question loading, score tracking, and progression logic using PHP.",
     technologies: ["PHP", "JavaScript", "CSS", "MariaDB", "Web Development"],
+    githubUrl: "https://github.com/Nathanchukss/WWM",
   },
   {
     title: "Web Server on AWS",

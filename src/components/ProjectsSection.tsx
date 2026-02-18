@@ -30,6 +30,7 @@ const projects: Project[] = [
     description:
       "A fully responsive, modern personal website designed to showcase my portfolio, skills, and experiences. Features intuitive navigation, clean aesthetic, and interactive elements to highlight my work and personal projects.",
     technologies: ["JavaScript", "React", "Tailwind CSS", "Figma", "Web Design"],
+    liveUrl: "https://nathannwaokocha.lovable.app",
     githubUrl: "https://github.com/Nathanchukss/P-Web",
   },
   {

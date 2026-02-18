@@ -59,6 +59,7 @@ const projects: Project[] = [
     description:
       "Developed a recommendation engine using content-based and collaborative filtering on MovieLens dataset, and implemented cosine similarity and TF-IDF vectorization to generate personalized movie suggestions.",
     technologies: ["Data Analysis", "Databases", "Data Science", "Python"],
+    liveUrl: "https://movierecc.lovable.app",
   },
   {
     title: "CliSer Com",

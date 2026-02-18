@@ -41,6 +41,12 @@ const projects: Project[] = [
     githubUrl: "https://github.com/Nathanchukss/isvp",
   },
   {
+    title: "FNDEC - Fake News Detection",
+    description:
+      "Built an NLP-based classification model to identify fake news which preprocessed 10,000+ text samples through stemming, tokenization & TF-IDF vectorization.",
+    technologies: ["Data Analysis", "Data Science", "NLP", "Machine Learning"],
+  },
+  {
     title: "MovieREC",
     description:
       "Developed a recommendation engine using content-based and collaborative filtering on MovieLens dataset, and implemented cosine similarity and TF-IDF vectorization to generate personalized movie suggestions.",
@@ -51,12 +57,6 @@ const projects: Project[] = [
     description:
       "Developed a socket-based client-server application to enable real-time data exchange over TCP/IP, demonstrating understanding of network protocols and concurrent connections.",
     technologies: ["Python", "Network Security", "TCP/IP", "Socket Programming"],
-  },
-  {
-    title: "FNDEC - Fake News Detection",
-    description:
-      "Built an NLP-based classification model to identify fake news which preprocessed 10,000+ text samples through stemming, tokenization & TF-IDF vectorization.",
-    technologies: ["Data Analysis", "Data Science", "NLP", "Machine Learning"],
   },
   {
     title: "FitLaand",

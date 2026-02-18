@@ -47,6 +47,13 @@ const projects: Project[] = [
     technologies: ["Data Analysis", "Data Science", "NLP", "Machine Learning"],
   },
   {
+    title: "FitLaand",
+    description:
+      "Developed core features of a fitness tracking application designed to help users monitor workouts, set goals, and track progress over time. Implemented features like personalized workout plans, progress charts, and user-friendly dashboards.",
+    technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Data Management"],
+    githubUrl: "https://github.com/digoabari1/fitLaand",
+  },
+  {
     title: "MovieREC",
     description:
       "Developed a recommendation engine using content-based and collaborative filtering on MovieLens dataset, and implemented cosine similarity and TF-IDF vectorization to generate personalized movie suggestions.",
@@ -57,13 +64,6 @@ const projects: Project[] = [
     description:
       "Developed a socket-based client-server application to enable real-time data exchange over TCP/IP, demonstrating understanding of network protocols and concurrent connections.",
     technologies: ["Python", "Network Security", "TCP/IP", "Socket Programming"],
-  },
-  {
-    title: "FitLaand",
-    description:
-      "Developed core features of a fitness tracking application designed to help users monitor workouts, set goals, and track progress over time. Implemented features like personalized workout plans, progress charts, and user-friendly dashboards.",
-    technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Data Management"],
-    githubUrl: "https://github.com/digoabari1/fitLaand",
   },
   {
     title: "NetTraff - Network Traffic Analysis",

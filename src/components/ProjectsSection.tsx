@@ -55,7 +55,7 @@ const projects: Project[] = [
     githubUrl: "https://github.com/digoabari1/fitLaand",
   },
   {
-    title: "MovieREC",
+    title: "MovieRECC",
     description:
       "Developed a recommendation engine using content-based and collaborative filtering on MovieLens dataset, and implemented cosine similarity and TF-IDF vectorization to generate personalized movie suggestions.",
     technologies: ["Data Analysis", "Databases", "Data Science", "Python"],

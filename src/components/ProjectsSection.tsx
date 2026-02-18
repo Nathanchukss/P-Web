@@ -78,6 +78,7 @@ const projects: Project[] = [
     description:
       "Developed a web-based Fifteen Puzzle game featuring dynamic tile movement, live tracking of time and moves, and visual feedback upon completion. Implemented secure user authentication, personalized game preferences, and an admin dashboard.",
     technologies: ["PHP", "JavaScript", "CSS", "Full-Stack Development", "UX Design"],
+    githubUrl: "https://github.com/Nathanchukss/P15",
   },
   {
     title: "Regular Expression Engine",

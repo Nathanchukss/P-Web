@@ -26,6 +26,13 @@ const projects: Project[] = [
     githubUrl: "https://github.com/Nathanchukss/electronic-health-records-ehr",
   },
   {
+    title: "Personal Website",
+    description:
+      "A fully responsive, modern personal website designed to showcase my portfolio, skills, and experiences. Features intuitive navigation, clean aesthetic, and interactive elements to highlight my work and personal projects.",
+    technologies: ["JavaScript", "React", "Tailwind CSS", "Figma", "Web Design"],
+    githubUrl: "https://github.com/Nathanchukss/P-Web",
+  },
+  {
     title: "ISVP - Intelligent Stock Value Prediction",
     description:
       "Built a hybrid AI system combining Deep Learning (Transformers) and Reinforcement Learning to predict stock prices with 82.3% directional accuracy. Outperforms traditional models like ARIMA and LSTM across RMSE, MAPE, and Directional Accuracy metrics.",
@@ -34,29 +41,10 @@ const projects: Project[] = [
     githubUrl: "https://github.com/Nathanchukss/isvp",
   },
   {
-    title: "NetTraff - Network Traffic Analysis",
-    description:
-      "Captured and analyzed packet data to identify network patterns, troubleshoot connectivity issues, and evaluate protocol performance using Wireshark.",
-    technologies: ["Wireshark", "VPN", "Network Security", "Data Analysis"],
-  },
-  {
-    title: "FNDEC - Fake News Detection",
-    description:
-      "Built an NLP-based classification model to identify fake news which preprocessed 10,000+ text samples through stemming, tokenization & TF-IDF vectorization.",
-    technologies: ["Data Analysis", "Data Science", "NLP", "Machine Learning"],
-  },
-  {
     title: "MovieREC",
     description:
       "Developed a recommendation engine using content-based and collaborative filtering on MovieLens dataset, and implemented cosine similarity and TF-IDF vectorization to generate personalized movie suggestions.",
     technologies: ["Data Analysis", "Databases", "Data Science", "Python"],
-  },
-  {
-    title: "Personal Website",
-    description:
-      "A fully responsive, modern personal website designed to showcase my portfolio, skills, and experiences. Features intuitive navigation, clean aesthetic, and interactive elements to highlight my work and personal projects.",
-    technologies: ["JavaScript", "React", "Tailwind CSS", "Figma", "Web Design"],
-    githubUrl: "https://github.com/Nathanchukss/P-Web",
   },
   {
     title: "CliSer Com",
@@ -65,11 +53,10 @@ const projects: Project[] = [
     technologies: ["Python", "Network Security", "TCP/IP", "Socket Programming"],
   },
   {
-    title: "Regular Expression Engine",
+    title: "FNDEC - Fake News Detection",
     description:
-      "Engineered a custom regular expression engine in Python from scratch, encompassing over 800 lines of code, to parse complex data structures and match intricate search patterns with 99% accuracy.",
-    technologies: ["Python", "Problem Solving", "Critical Thinking", "Debugging"],
-    githubUrl: "https://github.com/Nathanchukss/Regular_Expression_Engine",
+      "Built an NLP-based classification model to identify fake news which preprocessed 10,000+ text samples through stemming, tokenization & TF-IDF vectorization.",
+    technologies: ["Data Analysis", "Data Science", "NLP", "Machine Learning"],
   },
   {
     title: "FitLaand",
@@ -79,10 +66,23 @@ const projects: Project[] = [
     githubUrl: "https://github.com/digoabari1/fitLaand",
   },
   {
+    title: "NetTraff - Network Traffic Analysis",
+    description:
+      "Captured and analyzed packet data to identify network patterns, troubleshoot connectivity issues, and evaluate protocol performance using Wireshark.",
+    technologies: ["Wireshark", "VPN", "Network Security", "Data Analysis"],
+  },
+  {
     title: "P15 Puzzle",
     description:
       "Developed a web-based Fifteen Puzzle game featuring dynamic tile movement, live tracking of time and moves, and visual feedback upon completion. Implemented secure user authentication, personalized game preferences, and an admin dashboard.",
     technologies: ["PHP", "JavaScript", "CSS", "Full-Stack Development", "UX Design"],
+  },
+  {
+    title: "Regular Expression Engine",
+    description:
+      "Engineered a custom regular expression engine in Python from scratch, encompassing over 800 lines of code, to parse complex data structures and match intricate search patterns with 99% accuracy.",
+    technologies: ["Python", "Problem Solving", "Critical Thinking", "Debugging"],
+    githubUrl: "https://github.com/Nathanchukss/Regular_Expression_Engine",
   },
   {
     title: "WWM - Who Wants to Be a Millionaire",
@@ -91,16 +91,16 @@ const projects: Project[] = [
     technologies: ["PHP", "JavaScript", "CSS", "MariaDB", "Web Development"],
   },
   {
-    title: "Streamline",
-    description:
-      "Conceptualized and built a sales platform for musical collections utilizing HTML, CSS, and JavaScript; delivered a presentation to clients, receiving the highest rating for clarity and technical detail.",
-    technologies: ["JavaScript", "CSS", "HTML", "Web Design"],
-  },
-  {
     title: "Web Server on AWS",
     description:
       "Deployed and configured a web server on AWS, implemented user access controls, and ensured secure remote connections for cloud hosting.",
     technologies: ["AWS", "Cloud Computing", "Security", "Web Development"],
+  },
+  {
+    title: "Streamline",
+    description:
+      "Conceptualized and built a sales platform for musical collections utilizing HTML, CSS, and JavaScript; delivered a presentation to clients, receiving the highest rating for clarity and technical detail.",
+    technologies: ["JavaScript", "CSS", "HTML", "Web Design"],
   },
 ];
 

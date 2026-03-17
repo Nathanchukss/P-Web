@@ -46,6 +46,7 @@ const projects: Project[] = [
     description:
       "Built an NLP-based classification model to identify fake news which preprocessed 10,000+ text samples through stemming, tokenization & TF-IDF vectorization.",
     technologies: ["Data Analysis", "Data Science", "NLP", "Machine Learning"],
+    liveUrl: "https://fndec.onrender.com",
   },
   {
     title: "FitLaand",
